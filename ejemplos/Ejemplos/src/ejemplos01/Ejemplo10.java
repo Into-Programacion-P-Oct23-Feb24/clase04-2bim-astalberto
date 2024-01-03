@@ -16,7 +16,7 @@ public class Ejemplo10 {
         String mensajeSuma;
         int sumaDos;
         mensajeSuma = obtenerSuma(10, 9);
-        sumaDos = obtenerSuma(10);
+        sumaDos = obtenerSum(10,10);
         
         System.out.printf("%s\n", mensajeSuma);
         System.out.printf("%d\n", sumaDos);
@@ -30,7 +30,7 @@ public class Ejemplo10 {
         return cadena;        
     }
     
-    public static int obtenerSuma(int operandor1, int operandor2){
+    public static int obtenerSum(int operandor1, int operandor2){
         int suma;
         String cadena = "";
         suma = operandor1 + operandor1;
